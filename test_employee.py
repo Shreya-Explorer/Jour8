@@ -2,9 +2,9 @@ from employee import employee_details
 
 def test_employee_details():
     expected_output = (
-        "Employee Name:Shreya Raykar\n"
-        "Employee ID:01FE24BCA150\n"
+        "Employee_Name:Shreya Raykar\n"
+        "Employee_ID:01FE24BCA150\n"
         "Department:BCA\n"
         "Salary:80000"
     )
-    assert employee_details("Shreya Raykar","01FE24BCA150","BCA",80000) == expected_output
+    assert employee_details("Shreya Raykar","01FE24BCA150","BCA",80000)==expected_output
