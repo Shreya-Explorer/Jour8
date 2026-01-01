@@ -8,8 +8,8 @@ def employee_details(name,emp_id,department,salary):
     return result
 
 if __name__ == "__main__":
-    name="Nitya Savadatti"
-    emp_id="01FE24BCA174"
+    name="Sinchana Naik"
+    emp_id="01FE24BCA169"
     department="BCA"
     salary=80000
     print(employee_details(name,emp_id,department,salary))
